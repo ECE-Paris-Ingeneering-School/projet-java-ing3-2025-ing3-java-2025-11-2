@@ -47,26 +47,6 @@ The application uses a MySQL database with the following tables:
 
 - Java 8 or higher
 - MySQL 5.7 or higher
-- Maven
-
-### Installation
-
-1. Clone the repository
-2. Create a MySQL database named `booking_db`
-3. Execute the SQL scripts in the `src/main/resources/db` folder:
-   - `create_database.sql`
-   - `insert_sample_data.sql`
-4. Update the database credentials in `src/main/java/com/booking/utils/DatabaseConnection.java` if needed
-5. Build the project using Maven:
-   ```
-   mvn clean package
-   ```
-6. Run the application:
-   ```
-   java -jar target/booking-app-1.0-SNAPSHOT-jar-with-dependencies.jar
-   ```
-
-## Usage
 
 ### Login Credentials
 
