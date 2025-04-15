@@ -14,8 +14,6 @@ public CityAccommodationView(String city, List<Accommodation> accommodations) {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
-
-
     
         JLabel title = new JLabel("Logements disponibles à " + city, SwingConstants.CENTER);
         title.setFont(new Font("SansSerif", Font.BOLD, 24));
