@@ -8,6 +8,14 @@ import java.awt.event.ActionEvent;
 import java.util.List;
 public class CityAccommodationView extends JFrame {
 
+public CityAccommodationView(String city, List<Accommodation> accommodations) {
+        setTitle("Logements à " + city);
+        setSize(1000, 600);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLayout(new BorderLayout());
+
+
     
         JLabel title = new JLabel("Logements disponibles à " + city, SwingConstants.CENTER);
         title.setFont(new Font("SansSerif", Font.BOLD, 24));
