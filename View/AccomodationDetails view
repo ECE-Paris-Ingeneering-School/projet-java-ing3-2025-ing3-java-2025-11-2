@@ -51,7 +51,6 @@ public class CityAccommodationView extends JFrame {
 
             listPanel.add(panel);
         }
-
         add(scrollPane, BorderLayout.CENTER);
 
         JButton retourBtn = new JButton("⬅ Retour à l’accueil");
