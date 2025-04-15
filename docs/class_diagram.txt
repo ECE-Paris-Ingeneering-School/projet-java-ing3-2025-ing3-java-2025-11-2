@@ -46,4 +46,4 @@ Model-View-Controller (MVC) Architecture:
 5. Utils Layer:
    - Helper classes for common functionality
    - Database connection management
-   - Data validation and calculation utilities
+   - Data validation and calculation utilities     
