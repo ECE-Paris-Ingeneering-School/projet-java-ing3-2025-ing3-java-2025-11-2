@@ -133,11 +133,4 @@ public class LoginView extends JFrame implements ActionListener {
         }
     }
 
-    private void openRegisterView() {
-        this.dispose();
-        SwingUtilities.invokeLater(() -> {
-            RegisterView registerView = new RegisterView();
-            registerView.setVisible(true);
-        });
-    }
-}
+    
