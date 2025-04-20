@@ -16,3 +16,5 @@ public interface AccommodationDAO {
     List<Accommodation> searchByRating(int minRating);
     List<Accommodation> searchWithFilters(String city, String country, String type, double minPrice, double maxPrice, int minRating, int maxGuests);
 }
+
+}
